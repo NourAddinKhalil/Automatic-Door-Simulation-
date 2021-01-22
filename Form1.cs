@@ -126,9 +126,10 @@ namespace Door_sensor
            
 
         
-
+//this function if cursor leaves the line the door will close after 200 mm seconds 
         private void panel1_MouseLeave(object sender, EventArgs e)
         {
+            Thread.Sleep(200);
             close_door();
         }
 
