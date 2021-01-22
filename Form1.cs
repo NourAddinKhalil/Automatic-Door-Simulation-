@@ -55,6 +55,7 @@ namespace Door_sensor
         void emergences()
         {
 
+// Function to open door immediately when there is a an emergency situation written by Mohammad Al-Qabili
             SoundPlayer sound = new SoundPlayer("awsan.wav");
             sound.Play();
             pnl_right.Width = 279;
