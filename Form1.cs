@@ -128,9 +128,12 @@ namespace Door_sensor
            
 
         
-
+//this function for closing the door after the courser leave the line
+//i want to add Thread.Sleep to close the door after 200 ms 
+//Edited By Nour Addin Khalil 
         private void panel1_MouseLeave(object sender, EventArgs e)
         {
+            Thread.Sleep(209);
             close_door();
         }
 
