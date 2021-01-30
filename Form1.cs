@@ -20,6 +20,7 @@ namespace Door_sensor
        
         void open_door()
         {
+// method to open the door written by Awsan Al-Haroji
             if (pnl_right.Width == 0)
             {
                 pnl_right.Width = 279;
@@ -33,8 +34,9 @@ namespace Door_sensor
 
         }  // this fun for open door
 
-        void close_door()
+   // method to close the door written by Awsan Al-Haroji     void close_door()
         {
+
             if (pnl_right.Width != 0)
             {
           
